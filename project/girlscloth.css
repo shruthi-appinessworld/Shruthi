@@ -1,0 +1,51 @@
+.container {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 50PX;
+ padding-bottom: 100PX;
+
+}
+
+.img{
+ margin-left: 20px; 
+ margin-right: 20px;
+ position: relative;
+ overflow: hidden;
+}
+
+.add-cart  {
+ position: absolute;
+ width: 100%;
+ background-color: antiquewhite;
+ transition: all 0.3s ease-in-out;
+ opacity: 0;
+ cursor:pointer;
+ text-align: center;
+
+}
+
+.img:hover .cart1,
+.img:hover .cart2,
+.img:hover .cart3,
+.img:hover .cart4,
+.img:hover .cart5 {
+  bottom:50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+ color: coral;
+ background-color: greenyellow;
+}
+
+body {
+background-color: aqua;
+}
+
+h3 {
+ color:royalblue;
+ font-style: oblique;
+}

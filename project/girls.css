@@ -1,0 +1,26 @@
+.babydress {
+ 
+ display: flex;
+ flex-direction: row;
+ 
+}
+.babydress a img {
+ width: 400px;
+ height: 400px;
+}
+
+#myBrand {
+ width: 200px;
+ height: 200px;
+}
+body {
+ background-color: pink;
+}
+/* a {
+ display: none;
+} */
+
+#two  {
+ display: flex;
+ flex-direction: row;
+}

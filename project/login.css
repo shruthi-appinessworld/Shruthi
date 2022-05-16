@@ -1,0 +1,52 @@
+#container
+{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ justify-content: center;
+}
+
+img {
+ border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 26px;
+    margin-top: 10px;
+}
+
+a {
+ display: inline-block;
+ background-color:cornsilk;
+ border: 2px solid black;
+ border-radius: 20%;
+ padding: 10px;
+ margin-top: 15px;
+
+}
+
+span {
+    font-size: 30px;
+     font-weight: bold;
+    font-style: italic;
+    
+}
+
+input {
+    margin: 10px;
+    border-color: blue;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/10/22/20/52/balloons-1761634_1280.jpg")  no-repeat center;
+}
+ sub {
+     background-color: antiquewhite;
+     border-radius: 30%;
+ }
+
+ button {
+     /* border-radius: %; */
+     
+    
+ }
